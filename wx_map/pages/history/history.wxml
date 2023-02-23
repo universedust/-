@@ -1,0 +1,9 @@
+<!-- 这是地图部分 -->
+<view class="map_container">
+    <map class='map' longitude='{{longitude}}' latitude='{{latitude}}' scale='{{scale}}' markers='{{markers}}' controls="{{controls}}" bindcontroltap="bindcontroltap" polyline='{{polyline}}' circles="{{circles}}" bindmarkertap='bindmarkertap' bindcontroltap='bindcontroltap'show-location></map>
+    <view class="map_text">
+        <view class="loginBtnView"> 
+        <button class="loginBtn" type="primary" bindtap="exit">结束寻物</button> 
+        </view> 
+    </view>
+</view>

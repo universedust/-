@@ -1,0 +1,8 @@
+<view>
+  <text bindtap="map">选择地图</text>
+  <view>
+  您选取的地址是{{address}}
+  位置名称是{{name}}
+  经纬度是{{longitude}}{{latitude}}
+  </view>
+</view>

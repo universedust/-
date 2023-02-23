@@ -1,0 +1,15 @@
+<!-- 这是地图部分 -->
+<view class="map_container">
+    <map class='map' longitude='{{longitude}}' latitude='{{latitude}}' scale='{{scale}}' markers='{{markers}}' controls="{{controls}}" bindcontroltap="bindcontroltap" polyline='{{polyline}}' circles="{{circles}}" bindmarkertap='bindmarkertap' bindcontroltap='bindcontroltap'show-location></map>
+    <view class="map_text">
+        <view class="loginBtnView"> 
+        <button class="loginBtn" type="primary">{{x}}</button> 
+        </view> 
+          <view class="loginBtnView"> 
+        <button class="loginBtn" type="primary">{{y}}</button> 
+        </view> 
+          <view class="loginBtnView"> 
+        <button class="loginBtn" type="primary" bindtap="return">回到首页</button> 
+        </view> 
+    </view>
+</view>

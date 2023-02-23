@@ -1,0 +1,27 @@
+{
+  "pages":[
+    "pages/start/start",
+    "pages/home/home",
+    "pages/history/history",
+    "pages/map/map",
+    "pages/login/login",
+    "pages/exit/exit"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "小程序使用位置信息，确认您的地址"
+    }
+  },
+  "requiredPrivateInfos": [
+    "getLocation"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#AB956D",
+    "navigationBarTitleText": "微信地图",
+    "navigationBarTextStyle":"white"
+  },
+ 
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,8 @@
+<!--pages/info/info.wxml-->
+<text>pages/info/info.wxml</text>
+
+<!-- 设置后退层级，默认为1可以省略 -->
+<navigator open-type="navigateBack" delta="1">后退</navigator>
+
+<!-- 编程式后退实现 -->
+<button bindtap="goBack">编程式后退</button>
